@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0;
+	padding:0;
+	font-family: "微软雅黑";
+	background:url(../images/ban.png);
+	background-size:cover;
+	
+}
+a{
+	text-decoration:none;
+	color:#333;
+}
+a:hover{color:#F00;}
+a:hover{
+	color:#F00;
+}
+ul,h3{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.fr{float:right; margin-left:10px;}
+.wrap{
+	width:1100px;
+	height:auto;
+	margin:0 auto;
+}
+header{
+	display:block;
+	width:100%;
+	height:80px;
+	float:left;
+}
+.logo{
+	width:400px;
+	height:80px;
+	float:left;
+}
+.logo h1{font-size:40px;}
+.nav{
+	width:600px;
+	height:60px;
+	float:right;
+	margin-top:20px;
+}
+.nav li{
+	float:left;
+}
+.nav li a{
+	font-size: 18px;
+	line-height: 60px;
+	color:#000;
+	text-decoration: none;
+	display:block;
+	width:110px;
+	text-align:center;
+	margin:0 4px;
+	text-decoration:none;
+}
+.nav li a:hover,.nav li a.active{
+	color:#FFF;
+	border-bottom:solid 3px #CCC;
+}
+.main{
+	width:100%;
+	height:auto;
+	float:left;
+	padding:30px 0;
+}
+.title1{
+	width:600px;
+	height:90px;
+	float:left;
+	margin-top:260px;
+	margin-left:98px;
+}
+.title1 h1{color:#FFF; font-size:48px;}
+.title{
+	width:100%;
+	height:36px;
+	float:left;
+	margin:10px 0;
+	background:#ddf2f3;
+}
+
+.photo{
+	width:100%;
+	height:auto;
+}
+.left{
+	width:668px;
+	height:auto;
+	float:left;
+}
+.form-group{
+	width:100%;
+	height:auto;
+	float:left;
+	margin:20px 0;
+}
+label{
+	float:left;
+	display:block;
+	width:96px;
+	line-height:35px;
+}
+.form-control{
+	width:300px;
+	height:35px;
+	text-indent:10px;
+	border-radius:5px;
+}
+.form-control2{
+	width:520px;
+	height:130px;
+	border-radius:5px;
+}
+.btn{
+	width:150px;
+	height:35px;
+	float:left;
+	margin-left:100px;
+	background:#0CF;
+	color:#FFF;
+	border:none;
+	border-radius:3px;
+	margin-top:20px;
+}
+.btn:hover{
+	background:#0CC;
+}
+.right{
+	width:400px;
+	height:auto;
+	float:right;
+}
+.right a{color:#FFF; font-size:20px;}
+.right a:hover{color:#F00; text-decoration:underline;}
+.fl{float:left; margin-right:40px;}
+.z p{
+	font-size:18px;
+	line-height:30px;
+	text-indent:35px;
+}
+
+.footer{
+	text-align:center;
+	line-height:40px;
+	width:100%;
+	height:40px;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	z-index:1;
+}
+
+
+
+、

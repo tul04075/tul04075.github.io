@@ -1,0 +1,146 @@
+body {
+    background-color: rgb(2, 100, 168);
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(200, 100, 40);
+    font-size: 64px;
+    padding: 20px 0;
+}
+
+button {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+select {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+div#filterOptions {
+    margin: 0 auto;
+    width: 75%;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+div#filterOptions div {
+    float: left;
+    margin: 10px 6px;  /*When using "margin" and 2 values, you have a shortcut: the first number applies to top and bottom; the second number applies to left and right */
+    color: rgb(200, 200, 200);
+    padding: 10px;
+}
+
+div#adsrDiv {
+    clear: left;
+    margin: 2% auto;
+    width: 50%;
+    color: rgb(200, 200, 200);
+}
+
+div#adsrLabels, div#adsrSliders {
+    float: left;
+    width: 45%;
+}
+
+div#adsrLabels {
+    line-height: 1.75rem;
+}
+
+div#synthType {
+    clear: left;
+    margin: 0 auto;
+    width: 75%;
+    padding-top: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: rgb(200, 200, 200);
+}
+
+div#keyboardDiv {
+    display: flex;  /*===== FLEXBOX!! =====*/
+    margin: auto;
+    justify-content: center;
+    align-items: flex-start;
+    width: 75%;
+}
+
+.key {
+    float: left;
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: flex-end;
+}
+
+.key p {
+    position: relative;
+    text-align: center;
+    margin: 15% auto;   /* Giving 2 values to the 'margin' property is a shortcut: the first value applies to top and bottom; the second to left and right */
+
+    overflow-wrap: break-word;
+}
+
+.whiteKey {
+    height: 300px;
+    z-index: 1; /* order of placement on the Z-axis; the higher the number, the further to the front an element is placed */
+    width: 20.5%;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.whiteKey:hover,
+.whiteKey:focus {
+    background-color: pink;
+}
+
+.whiteKey:active {
+    background-color: deeppink;
+}
+
+.blackKey {
+    position: absolute;
+    width: 5.5%;
+    height: 200px;
+    z-index: 2;
+    background-color: black;
+    color: white;
+}
+
+.blackKey:hover,
+.blackKey:focus {
+    background-color: deepskyblue;
+}
+
+.blackKey:active {
+    background-color: royalblue;
+}
+
+#key1 {
+    left: 17%;
+}
+
+#key3 {
+    left: 26%;
+}
+
+#key6 {
+    left: 39%;
+}
+
+#key8 {
+    left: 47.5%;
+}
+
+#key10 {
+    left: 55.5%;
+}
+
+#key13 {
+    left: 68.5%;
+}
+
+#key15 {
+    left: 77.5%;
+}
